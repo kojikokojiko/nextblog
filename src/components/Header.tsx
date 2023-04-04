@@ -9,9 +9,15 @@ export default function Header() {
             <span className="ml-3 text-xl text-white">My Blog</span>
           
         </Link>
-        <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 text-white hover:text-gray-900">Profile</a>
-        </nav>
+
+          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <Link href={`/profile`} className="mr-5 text-white hover:text-gray-900">
+            Profile
+        </Link>
+
+          </nav>
+
+
       </div>
     </header>
   )
